@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Services{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'demoapp/css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="/" class="logo">MyServices</a>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        {% block hero %}
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover Our Premium Services</h1>
+                <p>Providing top-notch solutions tailored to your needs.</p>
+                <a href="#services" class="cta-button">Explore Services</a>
+            </div>
+        </section>
+        {% endblock %}
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MyServices. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

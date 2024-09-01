@@ -1,0 +1,1071 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from optechanimation1.netlify.app/index-08 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Aug 2024 07:47:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Optech - IT Solution & Technology Theme</title>
+
+  <link rel="shortcut icon" href="core/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="core/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/magnific-popup.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/slick.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/fontawesome.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/remixicon.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/aos.css' %}">
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="{% static 'core/css/main.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/app.min.css' %}">
+</head>
+
+<body>
+
+  <div class="optech-preloader-wrap">
+    <div class="optech-preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div> -->
+  <!-- End preloader
+
+  <!-- progress circle -->
+  <div class="paginacontainer">
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+      <div class="top-arrow">
+        <i class="ri-arrow-up-s-line"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--head section is here-->
+  <header class="site-header optech-header-section site-header--menu-right optech-header-two" id="sticky-menu">
+    <div class="optech-header-top dark-bg3">
+      <div class="container">
+        <div class="optech-header-info-wrap">
+          <div class="optech-header-info ">
+            <ul>
+              <li><i class="ri-map-pin-2-fill"></i>Lille, France.</li>
+            </ul>
+          </div>
+          <div class="optech-header-info ">
+            <ul>
+              <li><a href="tel:123"><i class="ri-phone-fill"></i>518-564-3200</a></li>
+              <li><a href="mailto:name@email.com"><i class="ri-mail-fill"></i>contact@i2fstudentservices.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="optech-header-bottom">
+      <div class="container">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="{% url 'home' %}">
+              <img src="{% static 'core/images/logo/logo-white.png'%}" alt="" class="light-version-logo">
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main light-color">
+                  <li class="nav-item nav-item-has-children">
+                    <a href="#" class="nav-link-item drop-trigger">Home</a>
+                    
+                    <!-- <a href="#" class="nav-link-item drop-trigger">Home <i class="ri-arrow-down-s-fill"></i></a> -->
+                    <!-- <ul class="sub-menu" id="submenu-1">
+                      <li class="sub-menu--item">
+                        <a href='%url home%'>
+                          <span class="menu-item-text">Main Demo</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='index-02.html'>
+                          <span class="menu-item-text">IT Solutions</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='index-03.html'>
+                          <span class="menu-item-text">Tech Agency</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='index-04.html'>
+                          <span class="menu-item-text">Startup Home</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--i tem">
+                        <a href='index-05.html'>
+                          <span class="menu-item-text">IT Consulting</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='index-06.html'>
+                          <span class="menu-item-text">Software Company</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='index-07.html'>
+                          <span class="menu-item-text">Digital Agency</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='index-08.html'>
+                          <span class="menu-item-text">Tech Company</span>
+                        </a>
+                      </li>
+                  </ul> -->
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Pages <i class="ri-arrow-down-s-fill"></i></a>
+                  <ul class="sub-menu" id="submenu-2">
+                    <li class="sub-menu--item">
+                      <a href='about-us.html'>
+                        <span class="menu-item-text">About Us</span>
+                      </a>
+                    </li>
+                    <!-- <li class="sub-menu--item">
+                      <a href='pricing.html'>
+                        <span class="menu-item-text">Pricing</span>
+                      </a>
+                    </li> -->
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">blog <i class="ri-arrow-down-s-fill"></i></a>
+                      <ul class="sub-menu shape-none" id="submenu-3">
+                        <li class="sub-menu--item">
+                          <a href='blog.html'>
+                            <span class="menu-item-text">Blog</span>
+                          </a>
+                        </li>
+                        <!-- <li class="sub-menu--item">
+                          <a href='blog-grid.html'>
+                            <span class="menu-item-text">Blog grid</span>
+                          </a>
+                        </li> -->
+                        <!-- <li class="sub-menu--item">
+                          <a href='single-blog.html'>
+                            <span class="menu-item-text">blog details</span>
+                          </a>
+                        </li> -->
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Service<i class="ri-arrow-down-s-fill"></i>
+                      </a>
+                      <ul class="sub-menu shape-none" id="submenu-4">
+                        <li class="sub-menu--item">
+                          <a href='service.html'>
+                            <span class="menu-item-text">service</span>
+                          </a>
+                        </li>
+                        <!-- <li class="sub-menu--item">
+                          <a href='single-service.html'>
+                            <span class="menu-item-text">service details</span>
+                          </a>
+                        </li> -->
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Team<i class="ri-arrow-down-s-fill"></i>
+                      </a>
+                      <ul class="sub-menu shape-none" id="submenu-5">
+                        <li class="sub-menu--item">
+                          <a href='team.html'>
+                            <span class="menu-item-text">team</span>
+                          </a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href='single-team.html'>
+                            <span class="menu-item-text">team details</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="ri-arrow-down-s-fill"></i>
+                      </a>
+                      <ul class="sub-menu shape-none" id="submenu-7">
+                        <li class="sub-menu--item">
+                          <a href='faq.html'>
+                            <span class="menu-item-text">faq</span>
+                          </a>
+                        </li>
+                        <!-- <li class="sub-menu--item">
+                          <a href='errors-404.html'>
+                            <span class="menu-item-text">Error 404</span>
+                          </a>
+                        </li> -->
+                        <li class="sub-menu--item">
+                          <a href='testimonial.html'>
+                            <span class="menu-item-text">testimonial</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Shop<i class="ri-arrow-down-s-fill"></i>
+                      </a>
+                      <ul class="sub-menu shape-none" id="submenu-8">
+                        <li class="sub-menu--item">
+                          <a href='shop.html'>
+                            <span class="menu-item-text">shop</span>
+                          </a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href='single-shop.html'>
+                            <span class="menu-item-text">Shop Details</span>
+                          </a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href='my-cart.html'>
+                            <span class="menu-item-text">My Cart</span>
+                          </a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href='checkout.html'>
+                            <span class="menu-item-text">Checkout</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </li>
+                <!-- <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Portfolio <i class="ri-arrow-down-s-fill"></i></a>
+                  <ul class="sub-menu shape-none" id="submenu-6">
+                    <li class="sub-menu--item">
+                      <a href='portfolio-01.html'>
+                        <span class="menu-item-text">Portfolio Grid</span>
+                      </a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href='portfolio-02.html'>
+                        <span class="menu-item-text">Portfolio masonry</span>
+                      </a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href='single-portfolio.html'>
+                        <span class="menu-item-text">Single Portfolio</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li> -->
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Blog <i class="ri-arrow-down-s-fill"></i></a>
+                  <ul class="sub-menu" id="submenu-9">
+                    <!-- <li class="sub-menu--item">
+                      <a href='blog.html'>
+                        <span class="menu-item-text">blog</span>
+                      </a>
+                    </li> -->
+                    <li class="sub-menu--item">
+                      <a href='blog-grid.html'>
+                        <span class="menu-item-text">View Blogs</span>
+                      </a>
+                    </li>
+                    <!-- <li class="sub-menu--item">
+                      <a href='single-blog.html'>
+                        <span class="menu-item-text">blog Details</span>
+                      </a>
+                    </li> -->
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class='nav-link-item' href="{% url 'contact' %}">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+            <a class='optech-default-btn optech-header-btn' data-text='Get in Touch' href="{% url 'contact' %}"><span class="btn-wraper">Get in Touch</span></a>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger light-color">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+<!--header section ends here-->
+
+
+
+
+  <div class="optech-hero-section8 bg-cover" style="background-image: url('{% static 'core/images/hero/bg4.png' %}')">
+    <div class="container">
+      <div class="optech-hero-content center medium">
+        <h1> Moving to France from India for studies?</h1>
+        <!-- <p>We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization</p> -->
+        <p>🌍✈️ 🇮🇳➡️🇫🇷 Unsure about where to begin or how to navigate social security? Don't worry! Leave the hassle to us. Introducing I2F - your one-stop solution for all administrative tasks. Sit back, relax, and let us handle the details!</p>
+        <div class="optech-extra-mt">
+          <div class="optech-btn-wrap center">
+            <a class='optech-default-btn' data-aos-duration='600' data-aos='fade-up' data-text='Work With Us' href="{% url 'contact' %}"><span class="btn-wraper">Contact Us</span></a>
+            <a class='optech-default-btn optech-white-btn' data-aos-duration='800' data-aos='fade-up' data-text='View Services' href='service.html'> <span class="btn-wraper">View Services</span> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section optech-section-padding">
+    <div class="container">
+      <div class="optech-section-title center">
+        <h2>Our awesome services to make your experience easy</h2>
+      </div>
+      <div class="optech-4column-slider2" data-aos="fade-up" data-aos-duration="800">
+        <div class="optech-service-box">
+          <div class="optech-service-thumb">
+            <img src="{% static 'core/images/v3/service1.png' %}" alt="">
+            <div class="optech-service-data">
+              <div class="optech-service-icon">
+                <img src="{% static 'core/images/v3/icon1.svg' %}" alt="">
+              </div>
+              <a href='single-service.html'>
+                <h5>Visa Validation<br> Service</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="optech-service-box">
+          <div class="optech-service-thumb">
+            <img src="{% static 'core/images/v3/service2.png' %}" alt="">
+            <div class="optech-service-data">
+              <div class="optech-service-icon">
+                <img src="{% static 'core/images/v3/icon2.svg' %}" alt="">
+              </div>
+              <a href='single-service.html'>
+                <h5>Social<br> Security</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="optech-service-box">
+          <div class="optech-service-thumb">
+            <img src="{% static 'core/images/v3/service3.png' %}" alt="">
+            <div class="optech-service-data">
+              <div class="optech-service-icon">
+                <img src="{% static 'core/images/v3/icon3.svg' %}" alt="">
+              </div>
+              <a href='single-service.html'>
+                <h5>CAF Housing Allowance</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="optech-service-box">
+          <div class="optech-service-thumb">
+            <img src="{% static 'core/images/v3/service4.png' %}" alt="">
+            <div class="optech-service-data">
+              <div class="optech-service-icon">
+                <img src="{% static 'core/images/v3/icon4.svg' %}" alt="">
+              </div>
+              <a href='single-service.html'>
+                <h5>Bank Account</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="optech-service-box">
+          <div class="optech-service-thumb">
+            <img src="{% static 'core/images/v3/service2.png' %}" alt="">
+            <div class="optech-service-data">
+              <div class="optech-service-icon">
+                <img src="{% static 'core/images/v3/icon2.svg' %}" alt="">
+              </div>
+              <a href='single-service.html'>
+                <h5>Transportation</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="optech-service-box">
+          <div class="optech-service-thumb">
+            <img src="{% static 'core/images/v3/service2.png' %}" alt="">
+            <div class="optech-service-data">
+              <div class="optech-service-icon">
+                <img src="{% static 'core/images/v3/icon2.svg' %}" alt="">
+              </div>
+              <a href='single-service.html'>
+                <h5>SIM-Card</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <!-- <div class="section large-padding-tb7 overflow-hidden bg-light1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="optech-thumb extra-mr">
+            <img data-aos="fade-up" data-aos-duration="600" src="{% static 'core/images/v8/thumb1.png' %}" alt="">
+            <div class="optech-thumb-position" data-aos="fade-up" data-aos-duration="800">
+              <img src="{% static 'core/images/v8/thumb2.png' %}" alt="">
+            </div>
+            <div class="optech-shape1">
+              <img src="{% static 'core/images/shape/shape1.svg' %}" alt="">
+            </div>
+            <div class="optech-shape2">
+              <img src="{% static 'core/images/shape/shape2.svg' %}" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="optech-default-content ml40">
+            <h2>We provide perfect IT solutions & technology</h2>
+            <h5>During this time, we’ve built a reputation for excellent clients satisfaction as evidenced by our</h5>
+            <p>Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.</p>
+            <div class="optech-extra-mt">
+              <div class="optech-iconbox-column">
+                <div class="optech-iconbox-wrap3">
+                  <div class="optech-iconbox-icon3">
+                    <img src="{% static 'core/images/iconbox/icon11.svg' %}" alt="">
+                  </div>
+                  <div class="optech-iconbox-data3">
+                    <p>Provide Skills <br> Services</p>
+                  </div>
+                </div>
+                <div class="optech-iconbox-wrap3">
+                  <div class="optech-iconbox-icon3">
+                    <img src="{% static 'core/images/iconbox/icon12.svg' %}" alt="">
+                  </div>
+                  <div class="optech-iconbox-data3">
+                    <p>Urgent Support <br> For Clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- End section -->
+
+ 
+
+  <!-- <div class="section optech-section-padding bg-light1">
+    <div class="container">
+      <div class="optech-section-title center">
+        <h2>Explore our recent projects</h2>
+      </div>
+    </div>
+    <div class="optech-3column-slider" data-aos="fade-up" data-aos-duration="800">
+      <div class="optech-portfolio-wrap2">
+        <div class="optech-portfolio-thumb2">
+          <img src="{% static 'core/images/p2/p1.png' %}" alt="">
+        </div>
+        <div class="optech-portfolio-data2-wrap">
+          <div class="optech-portfolio-data2">
+            <a href='single-portfolio.html'>
+              <h4>Cyber Security Analysis</h4>
+            </a>
+            <p>Security, Technology</p>
+          </div>
+          <a class='optech-portfolio-btn2' href='single-portfolio.html'>
+            <span class="p-btn-wraper"><i class="ri-arrow-right-up-line"></i></span>
+          </a>
+        </div>
+      </div>
+      <div class="optech-portfolio-wrap2">
+        <div class="optech-portfolio-thumb2">
+          <img src="{% static 'core/images/p2/p2.png' %}" alt="">
+        </div>
+        <div class="optech-portfolio-data2-wrap">
+          <div class="optech-portfolio-data2">
+            <a href='single-portfolio.html'>
+              <h4>Digital Product Design</h4>
+            </a>
+            <p>Design, Graphics</p>
+          </div>
+          <a class='optech-portfolio-btn2' href='single-portfolio.html'>
+            <span class="p-btn-wraper"><i class="ri-arrow-right-up-line"></i></span>
+          </a>
+        </div>
+      </div>
+      <div class="optech-portfolio-wrap2">
+        <div class="optech-portfolio-thumb2">
+          <img src="{% static 'core/images/p2/p3.png' %}" alt="">
+        </div>
+        <div class="optech-portfolio-data2-wrap">
+          <div class="optech-portfolio-data2">
+            <a href='single-portfolio.html'>
+              <h4>Health App Development</h4>
+            </a>
+            <p>Development, Software</p>
+          </div>
+          <a class='optech-portfolio-btn2' href='single-portfolio.html'>
+            <span class="p-btn-wraper"><i class="ri-arrow-right-up-line"></i></span>
+          </a>
+        </div>
+      </div>
+      <div class="optech-portfolio-wrap2">
+        <div class="optech-portfolio-thumb2">
+          <img src="{% static 'core/images/p2/p4.png' %}" alt="">
+        </div>
+        <div class="optech-portfolio-data2-wrap">
+          <div class="optech-portfolio-data2">
+            <a href='single-portfolio.html'>
+              <h4>Marketing Agency Website</h4>
+            </a>
+            <p>Development, Marketing</p>
+          </div>
+          <a class='optech-portfolio-btn2' href='single-portfolio.html'>
+            <span class="p-btn-wraper"><i class="ri-arrow-right-up-line"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  End section -->
+
+  <div class="section optech-section-padding dark-bg">
+    <div class="container">
+      <div class="optech-1column-slider">
+        <div class="optech-t-box2">
+          <div class="optech-t-quote2">
+            <img src="{% static 'core/images/v1/quote.svg' %}" alt="">
+          </div>
+          <div class="optech-t-data2">
+            <!-- <p>“ Working with several word press themes and templates the years, I only can say this is best in every level. I use it for my company and the reviews that I have already are excellent. only design but the code quality ”</p> -->
+            <p>"Thanks to i2fservices, my visa process was stress-free! They handled everything with professionalism and made sure I had all the necessary documents. I couldn’t have done it without their help!"</p>
+            <div class="optech-t-rating2">
+              <ul>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+              </ul>
+            </div>
+            <h5>Brooklyn Simmons</h5>
+            <span></span>
+          </div>
+        </div>
+        <div class="optech-t-box2">
+          <div class="optech-t-quote2">
+            <img src="{% static 'core/images/v1/quote.svg' %}" alt="">
+          </div>
+          <div class="optech-t-data2">
+            <!-- <p>“ Working with several word press themes and templates the years, I only can say this is best in every level. I use it for my company and the reviews that I have already are excellent. only design but the code quality ”</p> -->
+            <p>"Thanks to i2fservices, my visa process was stress-free! They handled everything with professionalism and made sure I had all the necessary documents. I couldn’t have done it without their help!"</p>
+            <div class="optech-t-rating2">
+              <ul>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+              </ul>
+            </div>
+            <h5>Brooklyn Simmons</h5>
+            <span></span>
+          </div>
+        </div>
+        <div class="optech-t-box2">
+          <div class="optech-t-quote2">
+            <img src="{% static 'core/images/v1/quote.svg' %}" alt="">
+          </div>
+          <div class="optech-t-data2">
+            <p>"Opening a bank account in France was a breeze with i2fservices. They guided me through every step and made sure I had everything ready before I even landed. Fantastic service!"</p>
+            <!-- <p>“ Working with several word press themes and templates the last years, I only can say this is best in every level. I use it for my company and the reviews that I have already are all excellent. Not only the design but the code quality ”</p> -->
+            <div class="optech-t-rating">
+              <ul>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+                <li><img src="{% static 'core/images/v1/rating.svg' %}" alt=""></li>
+              </ul>
+            </div>
+            <h5>Brooklyn Simmons</h5>
+            <span>Lead </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section optech-section-padding5">
+    <div class="container">
+      <div class="optech-section-title center">
+        <h2>Our working process to reach you.</h2>
+      </div>
+      <div class="row z-index">
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
+          <div class="optech-numberbox-wrap">
+            <div class="optech-numberbox-icon">
+              <img src="{% static 'core/images/v2/illustration1.svg' %}" alt="">
+            </div>
+            <div class="optech-numberbox-data">
+              <span>01</span>
+              <h4>Select the Service</h4>
+              <!-- <p>We are architects innovation trailblazers of technological advancement</p> -->
+               <p>Choose the service that best fits your needs from our wide range of offerings.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
+          <div class="optech-numberbox-wrap">
+            <div class="optech-numberbox-icon">
+              <img src="{% static 'core/images/v2/illustration2.svg' %}" alt="">
+            </div>
+            <div class="optech-numberbox-data">
+              <span>02</span>
+              <h4>Fill the application</h4>
+              <!-- <p>We are architects innovation trailblazers of technological advancement</p> -->
+               <p>Fill out the application form with the necessary details to get started.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="optech-numberbox-wrap">
+            <div class="optech-numberbox-icon">
+              <img src="{% static 'core/images/v2/illustration3.svg' %}" alt="">
+            </div>
+            <div class="optech-numberbox-data">
+              <span>03</span>
+              <h4>Our Team will contact you</h4>
+              <!-- <p>We are architects innovation trailblazers of technological advancement</p> -->
+               <p>Once you’ve submitted your application, our team will reach out to you promptly for further assistance</p>
+            </div>
+          </div>
+        </div>
+        <div class="optech-line">
+          <img src="{% static 'core/images/v2/line.png' %}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <!-- <div class="section optech-section-padding2 dark-bg">
+    <div class="container">
+      <div class="optech-section-title center white-text-rg">
+        <h2>Our expert team is always ready to help you</h2>
+      </div>
+      <div class="row"> -->
+        <!-- <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-duration="400">
+          <div class="optech-team-wrap border_all">
+            <div class="optech-team-thumb">
+              <img src="{% static 'core/images/team/team1.png' %}" alt="">
+              <div class="optech-social-icon-box style-three position">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/">
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="optech-team-data">
+              <a href='single-team.html'>
+                <h5>Marvin McKinney</h5>
+              </a>
+              <p>CEO & Founder</p>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-duration="600">
+          <div class="optech-team-wrap border_all">
+            <div class="optech-team-thumb">
+              <img src="{% static 'core/images/team/team2.png' %}" alt="">
+              <div class="optech-social-icon-box style-three position">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/">
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="optech-team-data">
+              <a href='single-team.html'>
+                <h5>name 1</h5>
+              </a>
+              <p>Position</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-duration="800">
+          <div class="optech-team-wrap border_all">
+            <div class="optech-team-thumb">
+              <img src="{% static 'core/images/team/team3.png' %}" alt="">
+              <div class="optech-social-icon-box style-three position">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/">
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="optech-team-data">
+              <a href='single-team.html'>
+                <h5>name 2</h5>
+              </a>
+              <p>position</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div> -->
+  <!-- End section -->
+
+  <div class="section optech-section-padding bg-light1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="optech-default-content mr40">
+            <h2>Contact US Here, </h2>
+            <h2>Let’s Make Your Move to France Smooth and Easy</h2>
+            <!-- <p>Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.</p> -->
+            <p>Our team specializes in helping students transition from France to India. From visa processing to finding accommodations, we’re here to make every step of your journey as stress-free as possible. Customize your services with just a few clicks and let us handle the rest.</p>
+            <div class="optech-contact-info-column">
+              <div class="optech-contact-info">
+                <i class="ri-map-pin-2-fill"></i>
+                <h5>Address</h5>
+                <p>1791 Yorkshire Circle Kitty<br>
+                Hawk, NC 279499</p>
+              </div>
+              <div class="optech-contact-info">
+                <i class="ri-mail-fill"></i>
+                <h5>Contact</h5>
+                <a href="mailto:name@email.com">info@mthemeus.com</a>
+                <a href="tel:123">518-564-3200</a>
+              </div>
+            </div>
+            <!-- Office Hours: Mon – Sat: 8:00 AM – 10:00 PM -->
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="800">
+          <div class="optech-main-form bg-white ml60">
+            <h3>Fill The Contact Form</h3>
+            <p>Feel free to contact with us, we don’t spam your email</p>
+            <form method="post" action="{% url 'contact' %}">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="optech-main-field">
+                            {{ form.name.label_tag }}<br>
+                            {{ form.name }}
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="optech-main-field">
+                            {{ form.phone_number.label_tag }}<br>
+                            {{ form.phone_number }}
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="optech-main-field">
+                            {{ form.email.label_tag }}<br>
+                            {{ form.email }}
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="optech-main-field">
+                            {{ form.services_needed.label_tag }}<br>
+                            {{ form.services_needed }}
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="optech-main-field">
+                            {{ form.city_from.label_tag }}<br>
+                            {{ form.city_from }}
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="optech-main-field">
+                            {{ form.how_did_you_hear_about_us.label_tag }}<br>
+                            {{ form.how_did_you_hear_about_us }}
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <button id="optech-main-form-btn" type="submit" data-text="Send Message"> 
+                            <span class="btn-wraper">Send Message</span> 
+                        </button>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+<!-- 
+  <div class="section optech-section-padding">
+    <div class="container">
+      <div class="optech-section-title center">
+        <h2>Recent blog & articles about our services</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
+          <div class="optech-blog-wrap">
+            <a href='single-blog.html'>
+              <div class="optech-blog-thumb">
+                <img src="{% static 'core/images/blog/blog6.png' %}" alt="">
+              </div>
+            </a>
+            <div class="optech-blog-content reduced-padding">
+              <div class="optech-blog-meta">
+                <ul>
+                  <li><a href='single-blog.html'>Technology</a></li>
+                  <li><a href='single-blog.html'>26 June 2023</a></li>
+                </ul>
+              </div>
+              <a href='single-blog.html'>
+                <h4>Planning your online business goals with a specialist</h4>
+              </a>
+              <a class='optech-icon-btn' href='single-blog.html'><i class="icon-show ri-arrow-right-line"></i> <span>Learn More</span> <i class="icon-hide ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
+          <div class="optech-blog-wrap">
+            <a href='single-blog.html'>
+              <div class="optech-blog-thumb">
+                <img src="{% static 'core/images/blog/blog7.png' %}" alt="">
+              </div>
+            </a>
+            <div class="optech-blog-content reduced-padding">
+              <div class="optech-blog-meta">
+                <ul>
+                  <li><a href='single-blog.html'>Technology</a></li>
+                  <li><a href='single-blog.html'>26 June 2023</a></li>
+                </ul>
+              </div>
+              <a href='single-blog.html'>
+                <h4>Boost your startup business with our digital agency</h4>
+              </a>
+              <a class='optech-icon-btn' href='single-blog.html'><i class="icon-show ri-arrow-right-line"></i> <span>Learn More</span> <i class="icon-hide ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="optech-blog-wrap">
+            <a href='single-blog.html'>
+              <div class="optech-blog-thumb">
+                <img src="{% static 'core/images/blog/blog8.png' %}" alt="">
+              </div>
+            </a>
+            <div class="optech-blog-content reduced-padding">
+              <div class="optech-blog-meta">
+                <ul>
+                  <li><a href='single-blog.html'>Technology</a></li>
+                  <li><a href='single-blog.html'>26 June 2023</a></li>
+                </ul>
+              </div>
+              <a href='single-blog.html'>
+                <h4>Proactive customer experience in the business</h4>
+              </a>
+              <a class='optech-icon-btn' href='single-blog.html'><i class="icon-show ri-arrow-right-line"></i> <span>Learn More</span> <i class="icon-hide ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="optech-center-btn">
+        <a class='optech-default-btn' data-text='View All Posts' href='blog.html'><span class="btn-wraper">View All Posts</span></a>
+      </div>
+    </div>
+  </div> -->
+  <!-- End section -->
+
+
+  <!-- Footer  -->
+
+  <footer class="optech-footer-section dark-bg">
+    <div class="container">
+      <div class="optech-footer-top optech-section-padding">
+        <div class="row">
+          <div class="col-xl-4 col-lg-12">
+            <div class="optech-footer-textarea light-color">
+              <a href='home'>
+                <img src="{% static 'core/images/logo/logo-white.png' %}" alt="">
+              </a>
+              <div class="optech-footer-title">
+                <h5>I2F Services</h5>
+              </div>
+              <p>Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few</p>
+              <div class="optech-social-icon-box">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/">
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 offset-xl-1 col-md-4">
+            <div class="optech-footer-menu">
+              <div class="optech-footer-title">
+                <h5>Quick Links</h5>
+              </div>
+              <ul>
+                <li><a href='about-us.html'>About Us</a></li>
+                <li><a href='team.html'>Our Team</a></li>
+                <li><a href='pricing.html'>Pricing</a></li>
+                <li><a href='blog.html'>Blogs</a></li>
+                <li><a href='contact.html'>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-5">
+            <div class="optech-footer-menu">
+              <div class="optech-footer-title">
+                <h5>Services</h5>
+              </div>
+              <ul>
+                <li><a href="#">Visa validation</a></li>
+                <li><a href="#">Social Security</a></li>
+                <li><a href="#">Bank Account</a></li>
+                <li><a href="#">Transportation</a></li>
+                <li><a href="#">CAF Housing Allowance</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3">
+            <div class="optech-footer-menu mb-0">
+              <div class="optech-footer-title">
+                <h5>Information</h5>
+              </div>
+              <ul>
+                <li><a href="#">Working Process</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Faqs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="optech-footer-bottom center">
+        <div class="optech-copywright">
+          <p>Thank you visit Again....</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- scripts -->
+  <script src="{% static 'core/js/jquery-3.7.1.min.js' %}"></script>
+  <script src="{% static 'core/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'core/js/menu/menu.js' %}"></script>
+  <script src="{% static 'core/js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'core/js/slick.js' %}"></script>
+  <script src="{% static 'core/js/countdown.js' %}"></script>
+  <script src="{% static 'core/js/skillbar.js' %}"></script>
+  <script src="{% static 'core/js/slick-animation.js' %}"></script>
+  <script src="{% static 'core/js/slick-animation.min.js' %}"></script>
+  <script src="{% static 'core/js/faq.js' %}"></script>
+  <script src="{% static 'core/js/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'core/js/tabs-slider.js' %}"></script>
+  <script src="{% static 'core/js/product-increment.js' %}"></script>
+  <script src="{% static 'core/js/top-to-bottom.js' %}"></script>
+  <script src="{% static 'core/js/aos.js' %}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyArZVfNvjnLNwJZlLJKuOiWHZ6vtQzzb1Y"></script>
+
+  <script src="{% static 'core/js/app.js' %}"></script>
+
+
+</body>
+
+<!-- Mirrored from optechanimation1.netlify.app/index-08 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Aug 2024 07:47:24 GMT -->
+</html>
